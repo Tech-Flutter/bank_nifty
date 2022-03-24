@@ -1,4 +1,4 @@
-import 'package:bank_nifty/practise_screens/ps_3.dart';
+import 'package:bank_nifty/practise_screens/tahiti_foods/ps_2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +17,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ProfileScreen());
+        home: LoginPage());
   }
 }
