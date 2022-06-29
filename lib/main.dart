@@ -1,4 +1,4 @@
-import 'package:bank_nifty/practise_screens/tahiti_foods/ps_2.dart';
+import 'package:bank_nifty/screens/webpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +17,11 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: LoginPage());
+        // home: Home());
+        home: SafeArea(
+          child: WebPage(
+            url: 'https://silvergemstone.com',
+          ),
+        ));
   }
 }
